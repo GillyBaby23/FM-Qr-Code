@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 0.1rem 0.5rem hsl(216, 15%, 48%);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(218, 44%, 22%);
+  padding: 0 1rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  color: hsl(216, 15%, 48%);
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
